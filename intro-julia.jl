@@ -266,7 +266,7 @@ You have a few options:
 
 * Official binaries from [Julia website](https://julialang.org/downloads/)
 * [Juliaup installer](https://github.com/JuliaLang/juliaup) (it lets you manage multiple versions at the same time)
-* build it from source, if you are into this kind of experience
+* build it from [source](https://github.com/JuliaLang/julia/), if you are into this kind of experience
 
 Avoid Julia packages in Linux distributions, they often package it with incompatible LLVM or other dependencies.
 
