@@ -31,7 +31,7 @@ md"""
 
 _by Mosè Giordano, RSE @ UCL_
 
-This notebook in running Julia v$(string(VERSION)).  You can obtain the notebook at <https://github.com/giordano/intro-julia-portsmouth>, which you can also run yourself locally after installing Julia.
+This notebook in running Julia v$(string(VERSION)).  You can obtain the notebook at <https://github.com/giordano/intro-julia-portsmouth>, which you can also run yourself locally after installing Julia.  With material from the Julia community particularly Valentin Churavy (PhD Student in Computer Science @ MIT).
 
 ## Who am I?
 
