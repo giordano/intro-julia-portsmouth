@@ -170,7 +170,8 @@ Markdown.parse(
 begin
 	c_lib = tempname()
 	flags = `-O3` # -fno-trapping-math -fno-signed-zeros -fassociative-math
-	run(pipeline(`gcc $(flags) -fPIC -march=native -x c -shared - -o $(c_lib)`; stdin=IOBuffer(c_sum_code)))
+	native_flag = `-m$(Sys.ARCH === :aarch64 || startswith(string(Sys.ARCH), "arm") ? "tune" : "arch")=native` # on ARM we need to use `-mtune` instead of `-march`
+	run(pipeline(`gcc $(flags) -fPIC $(native_flag) -x c -shared - -o $(c_lib)`; stdin=IOBuffer(c_sum_code)))
 end;
 
 # ╔═╡ 659b59e2-40bd-40cf-86f9-db209dc9c58f
