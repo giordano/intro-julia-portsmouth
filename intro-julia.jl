@@ -231,9 +231,16 @@ Excellent native GPU computing support
 
 Experimental support for accelerators like [Graphcore IPU](https://github.com/JuliaIPU/IPUToolkit.jl) and [NEC SX-Aurora](https://github.com/sx-aurora-dev/VectorEngine.jl).
 
-## Big projects
+## Julia projects
 
-For an overview of other projects in the Julia community, especially in the scientific machine learning domain, you cat watch the JuliaCon 2023 keynote talk "[Scientific Machine Learning through Symbolic Numerics](https://www.youtube.com/watch?v=tynmTkpdAME)" by Chris Rackauckas:
+Julia is designed from the ground up to be very good at numerical and scientific computing. This can be seen in the abundance of scientific tooling written in Julia, such as the state-of-the-art differential equations ecosystem ([DifferentialEquations.jl](https://github.com/SciML/DifferentialEquations.jl)), optimization tools ([JuMP.jl](https://github.com/jump-dev/JuMP.jl) and [Optim.jl](https://github.com/JuliaNLSolvers/Optim.jl)), iterative linear solvers ([IterativeSolvers.jl](https://github.com/JuliaMath/IterativeSolvers.jl)), Fast Fourier transforms ([FFTW.jl](https://github.com/JuliaMath/FFTW.jl)), and much more. General purpose simulation frameworks are available for [Scientific Machine Learning](https://sciml.ai/), [Quantum computing](https://github.com/QuantumBFS/Yao.jl) and much more.
+
+Julia also offers a number of domain-specific ecosystems, such as in biology ([BioJulia](https://github.com/BioJulia)), operations research ([JuMP Dev](https://jump.dev/)), image processing ([JuliaImages](https://juliaimages.github.io/latest/)), quantum physics ([QuantumBFS](https://github.com/QuantumBFS)), nonlinear dynamics ([JuliaDynamics](https://github.com/JuliaDynamics)), quantitative economics ([QuantEcon](https://github.com/QuantEcon)), astronomy ([JuliaAstro](https://juliaastro.github.io/)) and ecology ([EcoJulia](https://github.com/EcoJulia)). With a set of highly enthusiastic developers and maintainers, the scientific ecosystem in Julia continues to grow rapidly.
+
+
+Large-scale HPC applications written in Julia include [Clima](clima.caltech.edu), [Trixi](https://trixi-framework.github.io/), and [GPU4GEO](https://ptsolvers.github.io/GPU4GEO/about/).
+
+For a recent overview of the activity in scientific machine learning community, you can watch the JuliaCon 2023 keynote talk "[Scientific Machine Learning through Symbolic Numerics](https://www.youtube.com/watch?v=tynmTkpdAME)" by Chris Rackauckas:
 
 $(YouTube("tynmTkpdAME"))
 
