@@ -294,6 +294,14 @@ Avoid Julia packages in Linux distributions, they often package it with incompat
 * Engage the [community](https://julialang.org/community/)
 * [Discourse web forum](https://discourse.julialang.org/)
 
+### Download the notebook
+
+$(mktempdir() do dir
+	file = joinpath(dir, "qrcode.png")
+	exportqrcode("https://github.com/giordano/intro-julia-portsmouth", file; targetsize=12)
+	LocalResource(file)
+end)
+
 """
 
 # ╔═╡ bfaa1f3a-11c7-4b7e-95a2-4da860477d29
