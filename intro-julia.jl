@@ -1,5 +1,13 @@
 ### A Pluto.jl notebook ###
-# v0.19.29
+# v0.19.32
+
+#> [frontmatter]
+#> title = "Julia: fresh approach to scientific computing"
+#> date = "2023-11-01"
+#> 
+#>     [[frontmatter.author]]
+#>     name = "Mosè Giordano"
+#>     url = "https://giordano.github.io/"
 
 using Markdown
 using InteractiveUtils
